@@ -1,0 +1,22 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamhithaMakham/sit725-2021-t3-prac2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamhithaMakham/sit725-2021-t3-prac2/issues"
+  },
+  "homepage": "https://github.com/SamhithaMakham/sit725-2021-t3-prac2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
