@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello, world!</title>
+    <meta name="description" content="basic hello world for prac1">
+    <meta name="author" content="Sitepoint">
+
+    <meta property="og:title" content="SIT725 Prac 1">
+    <meta property="og:type" content="Website">
+    <meta property="og:description" content="basic hello world for prac1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+  <body>
+    <div class="continer">
+        <div class="row">
+            <div class="col s12">
+                <h1 id="heading" class="centre-align">About me</h1>
+                <p>My name is Samhitha Makham. I am currently doing MIT and cyber secuirty as a major and this is my last trimester. I am an enthusaistic person and passionate about learning new things. Taking this course has allowed me to learn various intertesting topics which helps me with  my career.
+            </div>
+        </div>
+    <div>
+        <div>
+            <h1>Add two number using text box as input using javascript</h1>
+        </div>
+            Enter First Number : <br>
+            <input type="text" id="Text1" name="TextBox1">
+            <br>
+            Enter Second Number : <br>
+            <input type="text" id="Text2" name="TextBox2">
+            <br>
+            Result : <br>
+            <input type="text" id="txtresult" name="TextBox3">
+            <br>
+         <input type="button" name="clickbtn" value="Display Result" onclick="add_number()">
+
+        <script type="text/javascript">
+            function add_number(){
+            var first_number = parseInt(document.getElementsById("Text1").value);
+            var second_number = parseInt(document.getElementsById("Text2").value);
+            var result = first_number + second_number;
+            document.getElementById("txtresult").innerHTML = result;    
+            }
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
